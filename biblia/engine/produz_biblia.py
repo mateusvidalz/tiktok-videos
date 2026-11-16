@@ -24,8 +24,12 @@ roteiro.json:
   ],
   "cenas": ["descricao em ingles da cena 1", ... 12 cenas],
   "fx": [["stars","dust"], ...]   # opcional, 1 por cena
-  "end_ref": "Gênesis 5:18-27"
+  "end_ref": "Gênesis 5:18-27",
+  "capa_titulo": "O homem que nunca morreu",   # titulo da capa (3 a 7 palavras)
+  "capa_cena": 0                               # indice do quadro usado na capa
 }
+A capa vira o cartao final do video (ultimos ~2s) e e salva como <saida>_capa.png.
+No Metricool use videoCoverMilliseconds = (DUR - 0.4) * 1000 (69600 para 70s).
 """
 import json, os, re, subprocess, sys
 
@@ -169,6 +173,8 @@ def cmd_montar(r, voz, pdir, saida, DUR=70.0):
                        "fx": fxs[i] if i < len(fxs) else (["dust", "birds"] if i % 2 else ["dust"])})
     spec = {"audio": os.path.abspath(vr), "voice_delay": d, "duration": DUR, "seed": 5, "scenes": scenes, "captions": caps,
             "hook": hook, "verse": verse, "highlights": his, "end_ref": r.get("end_ref"), "cta": cta}
+    ci = int(r.get("capa_cena", 0))
+    spec["cover"] = {"img": scenes[min(ci, n - 1)]["img"], "title": r.get("capa_titulo") or r.get("legenda", "")}
     sp = os.path.join(work, r["id"] + "_spec.json")
     json.dump(spec, open(sp, "w"), ensure_ascii=False, indent=1)
     print(f"voz bruta {raw:.1f}s, tempo {tempo:.3f}, voz final {vdur:.1f}s, {len(segs)} trechos -> {len(fr)} frases, {n} cenas")

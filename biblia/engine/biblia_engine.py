@@ -267,6 +267,50 @@ def build_music(dur, path):
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes(data.tobytes())
 
 
+
+def make_cover(img_path, title, label="VOCÊ SABIA QUE NA BÍBLIA..."):
+    """Capa 1080x1920: ilustracao em tela cheia + cartao creme com titulo, dentro da area 3:4
+    que aparece na grade do perfil (y 240 a 1680)."""
+    im = Image.open(img_path).convert("RGB")
+    sc = max(W / im.width, H / im.height) * 1.04
+    im = im.resize((int(im.width * sc), int(im.height * sc)), Image.LANCZOS)
+    x0, y0 = (im.width - W) // 2, int((im.height - H) * 0.35)
+    bg = im.crop((x0, y0, x0 + W, y0 + H)).convert("RGBA")
+    # leve vinheta e um veu creme no rodape para o cartao respirar
+    v = np.zeros((H, W), np.float32)
+    yy = np.linspace(0, 1, H)[:, None]
+    v += np.clip((yy - 0.55) / 0.45, 0, 1) ** 1.5 * 0.55
+    veil = np.zeros((H, W, 4), np.uint8); veil[..., :3] = CREAM; veil[..., 3] = (v * 255).astype(np.uint8)
+    bg.alpha_composite(Image.fromarray(veil, "RGBA"))
+    # cartao
+    f_lab = font("Lora.ttf", 34, "SemiBold")
+    size = 128
+    while True:
+        f_tit = font("Cormorant.ttf", size, "Bold")
+        tl = text_layer(title, f_tit, INK, maxw=840, spacing=0.98)
+        if tl.height <= 420 or size <= 84:
+            break
+        size -= 8
+    lab = text_layer(label, f_lab, OCHRE, maxw=900, tracking=4)
+    cw, chh = 960, lab.height + tl.height + 110
+    cy = 1300  # centro do cartao
+    top = int(cy - chh / 2)
+    if top + chh > 1600:
+        top = 1600 - chh
+    card = Image.new("RGBA", (cw, chh), (0, 0, 0, 0))
+    d = ImageDraw.Draw(card)
+    d.rounded_rectangle([0, 0, cw - 1, chh - 1], radius=28, fill=CREAM + (244,), outline=OCHRE + (170,), width=3)
+    shadow = Image.new("RGBA", (cw + 60, chh + 60), (0, 0, 0, 0))
+    ImageDraw.Draw(shadow).rounded_rectangle([30, 36, cw + 30, chh + 30], radius=30, fill=(60, 40, 20, 90))
+    shadow = shadow.filter(ImageFilter.GaussianBlur(16))
+    bg.alpha_composite(shadow, ((W - cw) // 2 - 30, top - 30))
+    bg.alpha_composite(card, ((W - cw) // 2, top))
+    bg.alpha_composite(lab, ((W - lab.width) // 2, top + 30))
+    rule = Image.new("RGBA", (120, 4), OCHRE + (220,))
+    bg.alpha_composite(rule, ((W - 120) // 2, top + 30 + lab.height + 4))
+    bg.alpha_composite(tl, ((W - tl.width) // 2, top + 30 + lab.height + 26))
+    return bg.convert("RGB")
+
 def main():
     spec = json.load(open(sys.argv[1]))
     out = sys.argv[2]
@@ -308,6 +352,14 @@ def main():
     FADE_LAYER = make_fade_layer()
     grain = paper_grain()
     rule = Image.new("RGBA", (160, 4), OCHRE + (200,))
+    cover = None
+    if spec.get("cover"):
+        cv = spec["cover"]
+        cover = make_cover(cv["img"], cv["title"])
+        cover.save(os.path.splitext(out)[0] + "_capa.png")
+        cover_arr = np.asarray(cover).astype(np.float32)
+        COVER_T0 = dur - 2.3   # cartao final entra suave e fica ate o fim
+        print("COVER_MS", int((dur - 0.4) * 1000))
 
     def render(t):
         # cenas com crossfade
@@ -353,8 +405,15 @@ def main():
             paste_alpha(fr, cta[2], W / 2, TEXT_Y, fade_alpha(t, cta[0], cta[1], 0.6, 0.8))
         arr = np.asarray(fr.convert("RGB")).astype(np.float32)
         arr += grain[..., None] * 255 * 0.5
-        k = min(g_in, g_out)
-        arr = arr * k + np.array(CREAM, np.float32) * (1 - k)
+        if cover is not None:
+            k = g_in
+            arr = arr * k + np.array(CREAM, np.float32) * (1 - k)
+            c = ease((t - COVER_T0) / 1.0)
+            if c > 0:
+                arr = arr * (1 - c) + cover_arr * c
+        else:
+            k = min(g_in, g_out)
+            arr = arr * k + np.array(CREAM, np.float32) * (1 - k)
         return np.clip(arr, 0, 255).astype(np.uint8)
 
     if preview:
