@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ARENA NEON v2 - motor de videos gamificados de fisica (TikTok 9:16, 58s)
+ARENA NEON v2 - motor de videos gamificados de fisica (TikTok 9:16, 68s)
 
 Uso:
   python3 arena_engine.py --mode rei --shapes times --seed 7 --out video.mp4
@@ -19,7 +19,7 @@ Formas (--shapes):
   misto   cada peca nasce com forma aleatoria (circulo, triangulo, quadrado, pauzinho, hexagono); times por cor
   circulo / triangulo / quadrado / pauzinho / hexagono   todas as pecas daquela forma; times por cor
 
-Gamificacao (regra fixa): UMA unica pausa de 5s aos 20s (camera lenta + pergunta + contagem 5-4-3-2-1).
+Gamificacao (regra fixa): UMA unica pausa de 5s aos 24s (camera lenta + pergunta + contagem 5-4-3-2-1).
 Gancho nos primeiros 1,6s e revelacao do vencedor nos ultimos 4s.
 Dependencias: pip install pymunk pycairo numpy ; ffmpeg ; fonte Inter Display.
 """
@@ -29,11 +29,12 @@ import cairo
 import pymunk
 
 W, H, FPS = 1080, 1920, 30
-DUR = 58.0
+DUR = 68.0
 SR = 44100
 FONT = "Inter Display"
-STOP_T, STOP_LEN = 20.0, 5.0
+STOP_T, STOP_LEN = 24.0, 5.0
 END_T = DUR - 4.0
+K = END_T / 54.0   # escala dos tempos de jogo (calibrados para 54s)
 
 BG_CENTER = (0.085, 0.063, 0.20)
 BG_EDGE = (0.024, 0.020, 0.06)
@@ -643,7 +644,7 @@ class Duelo(Base):
         self.flash = [0.0] * 4
         self.floats = []
         self.cool = {}
-        self.stages = [33.0, 43.0, 53.5]
+        self.stages = [33.0 * K, 43.0 * K, END_T - 0.5]
         self.bleed = None
         for i in range(4):
             a = math.pi / 4 + i * math.pi / 2
@@ -655,11 +656,11 @@ class Duelo(Base):
         return 0.0 if (self.bleed and self.bleed[0] == team) else 10.0
 
     def radius(self, t):
-        k = min(1, t / 48.0)
+        k = min(1, t / (48.0 * K))
         return self.R0 + (self.R1 - self.R0) * (k * k * (3 - 2 * k))
 
     def mult(self, t):
-        return 0.16 + t / 53.0 * 0.30
+        return 0.16 + t / (53.0 * K) * 0.30
 
     def hit(self, arb, space, data):
         a, b = arb.shapes[0].piece, arb.shapes[1].piece
@@ -702,12 +703,12 @@ class Duelo(Base):
                         b.velocity = v - 2 * v.dot(n) * n
                         b.angular_velocity += random.uniform(-4, 4)  # parede gira a peca
                         self.audio.knock(t, p["r"], p["kind"], 0.3)
-                        if 40 < t < END_T:
+                        if 40 * K < t < END_T:
                             tm = p["team"]
                             self.hp[tm] = max(min(self.hp[tm], self.floor(tm)), self.hp[tm] - 1.5)
                             self.flash[tm] = 0.2
                     b.position = (CX + n.x * (R - rr), CY + n.y * (R - rr))
-        sp = self.speed * (1 + 0.4 * min(1, t / 50))
+        sp = self.speed * (1 + 0.4 * min(1, t / (50 * K)))
         for p in self.pieces:
             v = p["body"].velocity
             if v.length > 1:
@@ -745,7 +746,7 @@ class Duelo(Base):
 
     def draw(self, ctx):
         R = self.radius(self.t)
-        danger = self.t > 40
+        danger = self.t > 40 * K
         ctx.arc(CX, CY, R, 0, 2 * math.pi)
         neon_stroke(ctx, DANGER if danger else ARENA, 9)
         for p in self.pieces:
@@ -809,7 +810,7 @@ class Prensa(Base):
             if 0.45 <= ph < 0.62:
                 hit = [p for p in self.pieces if abs(p["body"].position.x - self.px) < self.pw / 2 + p["r"] * 0.3
                        and p["body"].position.y - p["r"] * 0.2 < self.py]
-                goal = 12 * (self.TARGET / 12.0) ** (min(t, 52.0) / 52.0)
+                goal = 12 * (self.TARGET / 12.0) ** (min(t, 52.0 * K) / (52.0 * K))
                 budget = max(0, int(goal - len(self.pieces)) + 1)
                 random.shuffle(hit)
                 crushed = hit[:budget]
@@ -1037,12 +1038,12 @@ class Rei(Base):
         self.st = 0.0
 
     def target_angle(self, t, st):
-        amp = 0.04 + 0.42 * min(1, t / 50.0) ** 1.6
-        return amp * math.sin(self.phase0 + st * (1.1 + 0.6 * min(1, t / 50)))
+        amp = 0.04 + 0.42 * min(1, t / (50.0 * K)) ** 1.6
+        return amp * math.sin(self.phase0 + st * (1.1 + 0.6 * min(1, t / (50 * K))))
 
     def update(self, t, dt):
         self.t = t
-        if t >= self.next_drop and t < 40:
+        if t >= self.next_drop and t < 40 * K:
             self.add_piece(random.uniform(CX - 260, CX + 260), 560, self.turn, 30, random.uniform(-60, 60), 0, elastic=0.25, friction=0.8)
             self.turn = (self.turn + 1) % 4
             self.dropped += 1
@@ -1087,7 +1088,7 @@ class Rei(Base):
         neon_stroke(ctx, ARENA, 3)
         ctx.move_to(x - hx, y - hy); ctx.line_to(x + hx, y + hy)
         ctx.set_line_cap(cairo.LINE_CAP_ROUND)
-        neon_stroke(ctx, DANGER if self.t > 40 else ARENA, 26)
+        neon_stroke(ctx, DANGER if self.t > 40 * K else ARENA, 26)
         ctx.move_to(60, 1480); ctx.line_to(W - 60, 1480)
         ctx.set_dash([18, 14])
         neon_stroke(ctx, DANGER, 3, 0.6)
@@ -1097,7 +1098,7 @@ class Rei(Base):
             self.draw_piece(ctx, p, alpha=max(0, life) * 0.7)
         for p in self.pieces:
             self.draw_piece(ctx, p)
-        if 40 <= self.t < END_T and int(self.t * 3) % 2 == 0:
+        if 40 * K <= self.t < END_T and int(self.t * 3) % 2 == 0:
             text(ctx, "SEM REFORÇOS!", CX, 620, 46, rgb=DANGER, sw=7)
 
     def board(self, ctx):
