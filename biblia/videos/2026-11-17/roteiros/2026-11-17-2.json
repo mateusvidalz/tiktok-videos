@@ -1,0 +1,93 @@
+{
+ "id": "2026-11-17-2",
+ "legenda": "A sombra voltou",
+ "hook": "a sombra do sol\npode voltar para trás?",
+ "personagem": "King Hezekiah, a man around forty with a short dark beard, simple gold crown, deep forest green royal robe with ochre trim; the prophet Isaiah, an older man with long grey beard, sand robe and terracotta mantle",
+ "end_ref": "2 Reis 20:1-11",
+ "capa_titulo": "O dia em que a sombra voltou",
+ "capa_cena": 0,
+ "frases": [
+  {
+   "fala": "Você sabia que na Bíblia a sombra de um relógio de sol voltou para trás?",
+   "tipo": "hook"
+  },
+  {
+   "fala": "Isso aconteceu com o rei Ezequias, no livro de Segundo Reis.",
+   "tela": "Isso aconteceu com o rei Ezequias, no livro de 2 Reis."
+  },
+  {
+   "fala": "Ezequias, rei de Judá, ficou doente, à beira da morte."
+  },
+  {
+   "fala": "O profeta Isaías foi até ele com um recado duro."
+  },
+  {
+   "fala": "Põe em ordem a tua casa, porque morrerás."
+  },
+  {
+   "fala": "O rei virou o rosto para a parede, orou e chorou muito."
+  },
+  {
+   "fala": "Antes de Isaías sair do palácio, Deus mandou ele voltar."
+  },
+  {
+   "fala": "Ouvi a tua oração. Vi as tuas lágrimas."
+  },
+  {
+   "fala": "Deus prometeu curar o rei e dar mais quinze anos de vida.",
+   "tela": "Deus prometeu curar o rei e dar mais 15 anos de vida.",
+   "destaque": "15 anos"
+  },
+  {
+   "fala": "Então Ezequias pediu um sinal."
+  },
+  {
+   "fala": "Isaías perguntou: a sombra vai avançar dez graus, ou voltar dez graus?",
+   "tela": "Isaías perguntou: a sombra vai avançar 10 graus, ou voltar 10 graus?",
+   "destaque": "10 graus"
+  },
+  {
+   "fala": "O rei escolheu o mais difícil."
+  },
+  {
+   "fala": "Em Segundo Reis, capítulo vinte, está escrito:",
+   "tela": "Em 2 Reis, capítulo 20, está escrito:"
+  },
+  {
+   "fala": "Então o profeta Isaías clamou ao Senhor; e fez voltar a sombra dez graus atrás, pelos graus que tinha declinado no relógio de sol de Acaz.",
+   "tipo": "verso",
+   "verso": "Então o profeta Isaías clamou ao Senhor; e fez voltar a sombra dez graus atrás, pelos graus que tinha declinado no relógio de sol de Acaz.",
+   "ref": "2 Reis 20:11"
+  },
+  {
+   "fala": "E tem mais."
+  },
+  {
+   "fala": "O remédio que Isaías mandou usar no rei foi uma pasta de figos."
+  },
+  {
+   "fala": "Colocaram sobre a ferida, e ele sarou."
+  },
+  {
+   "fala": "Isaías conta essa história de novo no capítulo trinta e oito do seu livro.",
+   "tela": "Isaías conta essa história de novo no capítulo 38 do seu livro."
+  },
+  {
+   "fala": "Uma oração com lágrimas fez até a sombra voltar."
+  }
+ ],
+ "cenas": [
+  "A large ancient stone sundial staircase glowing in golden light, its long shadow visibly moving backward up the steps, King Hezekiah large in the foreground looking up in awe at the sky",
+  "King Hezekiah large in frame lying sick on a royal bed in a palace room, pale, servants worried, soft window light",
+  "The prophet Isaiah large in frame entering the king's chamber with a serious expression",
+  "King Hezekiah turning his face toward the stone wall, praying with tears, hands clasped",
+  "Isaiah walking across a sunlit palace courtyard with columns, then stopping and looking up to the sky",
+  "Isaiah returning to the king with a gentle hopeful face, light coming through the window",
+  "Close view of King Hezekiah's face full of hope, listening, tears drying",
+  "King Hezekiah sitting up in bed asking Isaiah for a sign, gesturing toward the window",
+  "View from the palace terrace of the ancient stairway sundial of Ahaz in the courtyard, long afternoon shadow on the steps",
+  "Isaiah large in frame raising his hands to the sky in prayer on the terrace, golden sky",
+  "A servant placing a poultice of figs on the king's arm, bowl of figs nearby, warm light",
+  "King Hezekiah healed, standing on the palace terrace at sunrise with arms open, Jerusalem rooftops below"
+ ]
+}

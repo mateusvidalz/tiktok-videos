@@ -1,0 +1,83 @@
+{
+ "id": "2026-11-17-3",
+ "legenda": "Os ossos de Eliseu",
+ "hook": "um morto reviveu\nao tocar em ossos?",
+ "personagem": "the prophet Elisha, a bald old man with a long white beard, plain brown wool robe, dusty blue mantle; Israelite men in sand and sage tunics",
+ "end_ref": "2 Reis 13:14-21",
+ "capa_titulo": "O morto que tocou nos ossos de Eliseu",
+ "capa_cena": 0,
+ "frases": [
+  {
+   "fala": "Você sabia que na Bíblia um homem morto voltou à vida ao tocar nos ossos de um profeta?",
+   "tipo": "hook"
+  },
+  {
+   "fala": "O profeta era Eliseu, e a história está em Segundo Reis.",
+   "tela": "O profeta era Eliseu, e a história está em 2 Reis."
+  },
+  {
+   "fala": "E o mais estranho é que Eliseu já estava morto."
+  },
+  {
+   "fala": "Como isso foi possível? Fica até o fim."
+  },
+  {
+   "fala": "Eliseu foi o discípulo do grande profeta Elias."
+  },
+  {
+   "fala": "Antes de Elias subir ao céu, Eliseu pediu porção dobrada do seu espírito.",
+   "destaque": "porção dobrada"
+  },
+  {
+   "fala": "Anos depois, Eliseu ficou doente, da enfermidade de que morreu."
+  },
+  {
+   "fala": "Eliseu foi sepultado."
+  },
+  {
+   "fala": "Tempos depois, alguns homens estavam enterrando um morto."
+  },
+  {
+   "fala": "De repente, viram uma tropa de moabitas chegando."
+  },
+  {
+   "fala": "Com pressa, jogaram o corpo na sepultura de Eliseu."
+  },
+  {
+   "fala": "Em Segundo Reis, capítulo treze, está escrito:",
+   "tela": "Em 2 Reis, capítulo 13, está escrito:"
+  },
+  {
+   "fala": "E sucedeu que, enterrando eles um homem, eis que viram uma tropa, e lançaram o homem na sepultura de Eliseu; e, caindo nela o homem, e tocando os ossos de Eliseu, reviveu, e se levantou sobre os seus pés.",
+   "tipo": "verso",
+   "verso": "E sucedeu que, enterrando eles um homem, eis que viram uma tropa, e lançaram o homem na sepultura de Eliseu; e, caindo nela o homem, e tocando os ossos de Eliseu, reviveu, e se levantou sobre os seus pés.",
+   "ref": "2 Reis 13:21"
+  },
+  {
+   "fala": "E tem mais."
+  },
+  {
+   "fala": "Ainda em vida, Eliseu já tinha trazido de volta o filho de uma mulher sunamita."
+  },
+  {
+   "fala": "Deus usou Eliseu para dar vida antes e depois da sua morte."
+  },
+  {
+   "fala": "A resposta? O poder nunca esteve nos ossos. Sempre esteve no Deus de Eliseu."
+  }
+ ],
+ "cenas": [
+  "Inside an ancient rock-cut tomb lit by a shaft of golden light, a man in a burial shroud rising to his feet beside old bones, astonished, dust glowing in the light",
+  "Elisha large in frame as a younger man, walking behind the prophet Elijah on a desert road, hills behind",
+  "A fiery chariot and whirlwind in the sky taking Elijah up, Elisha below holding a fallen mantle, looking up",
+  "Elisha large in frame blessing people in a village, healing water spring, gentle light",
+  "Old Elisha large in frame lying sick on a simple bed, the king of Israel kneeling and weeping beside him",
+  "A quiet burial at dusk, men carrying Elisha's wrapped body into a rock tomb in the hills",
+  "Years later, a small group of men carrying a wrapped body on a stretcher across a grassy hillside near tombs",
+  "The men looking back in fear as a band of raiders on horses appears on the distant ridge, dust cloud",
+  "The men hurriedly lowering the wrapped body into the open rock tomb of Elisha",
+  "The wrapped body touching old bones inside the dim tomb, a soft golden glow beginning",
+  "The revived man standing at the tomb entrance in sunlight, the burial cloth falling off, amazed",
+  "A peaceful hillside of ancient tombs at golden sunset, olive trees, warm sky, a single lamp glowing at the tomb"
+ ]
+}

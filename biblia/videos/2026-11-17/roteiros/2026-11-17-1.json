@@ -1,0 +1,95 @@
+{
+ "id": "2026-11-17-1",
+ "legenda": "O machado que flutuou",
+ "hook": "um machado de ferro\npode flutuar na água?",
+ "personagem": "the prophet Elisha, a bald middle-aged man with a short dark brown beard, plain brown wool robe, dusty blue mantle, leather sandals; young prophets in sand and sage tunics",
+ "end_ref": "2 Reis 6:1-7",
+ "capa_titulo": "O machado que flutuou no rio",
+ "capa_cena": 0,
+ "frases": [
+  {
+   "fala": "Você sabia que na Bíblia um machado de ferro flutuou na água?",
+   "tipo": "hook"
+  },
+  {
+   "fala": "Isso aconteceu com o profeta Eliseu, no livro de Segundo Reis.",
+   "tela": "Isso aconteceu com o profeta Eliseu, no livro de 2 Reis."
+  },
+  {
+   "fala": "Mas por que Deus faria um milagre por causa de um simples machado?"
+  },
+  {
+   "fala": "A resposta vem no fim."
+  },
+  {
+   "fala": "Um grupo de jovens profetas vivia com Eliseu."
+  },
+  {
+   "fala": "O lugar onde eles moravam ficou pequeno demais."
+  },
+  {
+   "fala": "Então eles foram até o rio Jordão cortar madeira."
+  },
+  {
+   "fala": "Cada um ia levar uma viga para construir uma casa nova."
+  },
+  {
+   "fala": "De repente, um deles derrubou uma árvore."
+  },
+  {
+   "fala": "E o ferro do machado caiu no rio."
+  },
+  {
+   "fala": "Ferro afunda. Não tinha como pegar de volta."
+  },
+  {
+   "fala": "Em Segundo Reis, capítulo seis, está escrito:",
+   "tela": "Em 2 Reis, capítulo 6, está escrito:"
+  },
+  {
+   "fala": "E disse o homem de Deus: Onde caiu? E mostrando-lhe ele o lugar, cortou um pau, e o lançou ali, e fez flutuar o ferro.",
+   "tipo": "verso",
+   "verso": "E disse o homem de Deus: Onde caiu? E mostrando-lhe ele o lugar, cortou um pau, e o lançou ali, e fez flutuar o ferro.",
+   "ref": "2 Reis 6:6"
+  },
+  {
+   "fala": "O ferro subiu e ficou boiando na superfície."
+  },
+  {
+   "fala": "O jovem estendeu a mão e pegou."
+  },
+  {
+   "fala": "E tem mais."
+  },
+  {
+   "fala": "Quando o ferro caiu, ele gritou: Ai, meu senhor! Ele era emprestado."
+  },
+  {
+   "fala": "O machado nem era dele."
+  },
+  {
+   "fala": "Deus se importou com o problema pequeno de um homem simples."
+  },
+  {
+   "fala": "Se até um machado perdido importa para Ele, imagina o que você carrega hoje."
+  },
+  {
+   "fala": "Comenta aqui se você já conhecia essa história.",
+   "tipo": "cta"
+  }
+ ],
+ "cenas": [
+  "Close view of a heavy iron axe head floating miraculously on the surface of the clear blue Jordan river, gentle golden light rays, ripples, Elisha standing large on the riverbank pointing at it",
+  "Elisha large in frame, walking with a group of young prophets along a dusty path toward the river, olive trees and soft hills",
+  "Elisha large in frame in a crowded small stone house, young prophets sitting close together, warm lamp light",
+  "Young prophets with axes walking down to the green banks of the Jordan river, tall trees, morning light",
+  "Elisha standing large in the foreground watching young men cutting tall trees by the river",
+  "A young prophet swinging an axe at a tree trunk by the river, wood chips flying, Elisha nearby",
+  "The iron axe head flying off the wooden handle and splashing into the river, the young man surprised",
+  "The young prophet kneeling at the riverbank, hands on his head, worried, looking into the water, Elisha behind him",
+  "Elisha large in frame cutting a thin stick from a branch with calm focus, river in background",
+  "Elisha throwing the stick into the water, soft glowing ripples spreading on the river surface",
+  "The young prophet reaching his hand into the river to pick up the floating iron axe head, amazed smile",
+  "Elisha and the young prophets walking back at golden sunset carrying wooden beams, peaceful landscape"
+ ]
+}
