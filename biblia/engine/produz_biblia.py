@@ -133,13 +133,23 @@ def align(segs, n, weights):
 
 def cmd_montar(r, voz, pdir, saida, DUR=70.0):
     work = os.path.dirname(os.path.abspath(saida)) or "."
+    fr = r["frases"]
     raw = dur_of(voz)
+    nchar = sum(len(f["fala"]) for f in fr)
+    # checagem 1: voz bruta compativel com o texto (~14 a 17 caracteres por segundo)
+    if raw < 45 or raw < nchar / 22.0:
+        sys.exit(f"ERRO VOZ: arquivo de voz curto demais ({raw:.1f}s para {nchar} caracteres). Baixe de novo e confira.")
     target = DUR - 3.0  # 0.5s de entrada + ~2.5s de respiro final
     tempo = max(1.0, min(1.25, raw / target))
-    vr = os.path.join(work, r["id"] + "_voz.mp3")
+    vr = os.path.join(work, r["id"] + "_voz_final.mp3")
+    if os.path.abspath(vr) == os.path.abspath(voz):
+        vr = os.path.join(work, r["id"] + "_voz_final2.mp3")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", voz, "-af", f"atempo={tempo:.4f}", vr], check=True)
     segs, vdur = speech_segments(vr)
-    fr = r["frases"]
+    # checagem 2: voz final com duracao e pausas suficientes
+    fala_total = sum(b - a for a, b in segs)
+    if vdur < 50 or vdur > DUR - 1 or len(segs) < len(fr) * 0.6 or fala_total < 35:
+        sys.exit(f"ERRO VOZ: voz final {vdur:.1f}s, {len(segs)} trechos, {fala_total:.1f}s de fala para {len(fr)} frases. Montagem abortada.")
     blocks = align(segs, len(fr), [max(8, len(f["fala"])) for f in fr])
     d = 0.5
     caps, verse, his, hook, cta = [], None, [], None, None
@@ -179,10 +189,32 @@ def cmd_montar(r, voz, pdir, saida, DUR=70.0):
     json.dump(spec, open(sp, "w"), ensure_ascii=False, indent=1)
     print(f"voz bruta {raw:.1f}s, tempo {tempo:.3f}, voz final {vdur:.1f}s, {len(segs)} trechos -> {len(fr)} frases, {n} cenas")
     subprocess.run([sys.executable, os.path.join(HERE, "biblia_engine.py"), sp, saida], check=True)
+    verifica(saida, DUR)
+
+
+def verifica(mp4, DUR=70.0):
+    """checagem 3: o MP4 final tem 70s e voz audivel do inicio ao fim (banda de fala vs graves)."""
+    import numpy as np
+    d = dur_of(mp4)
+    pcm = subprocess.run(["ffmpeg", "-v", "error", "-i", mp4, "-ac", "1", "-ar", "16000", "-f", "s16le", "-"],
+                         capture_output=True, check=True).stdout
+    x = np.frombuffer(pcm, np.int16).astype(float)
+    sr, ruins = 16000, []
+    for s0 in range(5, int(min(d, DUR)) - 8, 5):
+        seg = x[s0 * sr:(s0 + 5) * sr]
+        F = np.abs(np.fft.rfft(seg)); fq = np.fft.rfftfreq(len(seg), 1 / sr)
+        ratio = F[(fq > 300) & (fq < 3400)].sum() / max(1.0, F[fq < 300].sum())
+        if ratio < 0.85:
+            ruins.append(s0)
+    if abs(d - DUR) > 0.3 or len(ruins) > 1:
+        sys.exit(f"ERRO VIDEO: duracao {d:.1f}s, trechos sem voz em {ruins}. NAO publicar.")
+    print(f"OK video {d:.1f}s com voz em todos os trechos")
 
 
 if __name__ == "__main__":
     c = sys.argv[1]
+    if c == "verificar":
+        verifica(sys.argv[2]); sys.exit(0)
     r = load(sys.argv[2])
     if c == "prompts":
         cmd_prompts(r)
