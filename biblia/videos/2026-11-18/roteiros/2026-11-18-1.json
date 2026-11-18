@@ -1,0 +1,102 @@
+{
+ "id": "2026-11-18-1",
+ "legenda": "O tamanho de Golias",
+ "hook": "qual era o tamanho\nreal de Golias?",
+ "personagem": "Goliath, a towering giant warrior with a thick black beard, bronze helmet, bronze scale armor, huge spear; young David, a slim teenage shepherd with curly auburn hair, simple sand-colored tunic, leather sling",
+ "end_ref": "1 Samuel 17:4-50",
+ "capa_titulo": "O tamanho real de Golias",
+ "capa_cena": 0,
+ "frases": [
+  {
+   "fala": "Você sabia que na Bíblia o gigante Golias tinha quase três metros de altura?",
+   "tipo": "hook",
+   "tela": "Você sabia que na Bíblia o gigante Golias tinha quase 3 metros de altura?"
+  },
+  {
+   "fala": "A história está em Primeiro Samuel, capítulo dezessete.",
+   "tela": "A história está em 1 Samuel, capítulo 17."
+  },
+  {
+   "fala": "Mas quanto pesava a armadura que ele carregava?"
+  },
+  {
+   "fala": "A resposta vem no fim."
+  },
+  {
+   "fala": "Os filisteus e Israel estavam frente a frente, cada exército num monte."
+  },
+  {
+   "fala": "No vale entre eles, saiu um guerreiro da cidade de Gate."
+  },
+  {
+   "fala": "Em Primeiro Samuel, capítulo dezessete, está escrito:",
+   "tela": "Em 1 Samuel, capítulo 17, está escrito:"
+  },
+  {
+   "fala": "Então saiu do arraial dos filisteus um homem guerreiro, cujo nome era Golias, de Gate, que tinha de altura seis côvados e um palmo.",
+   "tipo": "verso",
+   "verso": "Então saiu do arraial dos filisteus um homem guerreiro, cujo nome era Golias, de Gate, que tinha de altura seis côvados e um palmo.",
+   "ref": "1 Samuel 17:4"
+  },
+  {
+   "fala": "Seis côvados e um palmo dão perto de dois metros e noventa.",
+   "tela": "6 côvados e 1 palmo dão perto de 2,90 metros.",
+   "destaque": "2,90 metros"
+  },
+  {
+   "fala": "Por quarenta dias ele desafiou Israel, de manhã e à tarde.",
+   "tela": "Por 40 dias ele desafiou Israel, de manhã e à tarde.",
+   "destaque": "40 dias"
+  },
+  {
+   "fala": "Ninguém teve coragem de enfrentar."
+  },
+  {
+   "fala": "Agora a resposta."
+  },
+  {
+   "fala": "A couraça dele pesava cinco mil siclos de bronze.",
+   "tela": "A couraça dele pesava 5.000 siclos de bronze."
+  },
+  {
+   "fala": "Isso dá uns cinquenta e sete quilos.",
+   "tela": "Isso dá uns 57 quilos.",
+   "destaque": "57 kg"
+  },
+  {
+   "fala": "E só a ponta da lança tinha seiscentos siclos de ferro, quase sete quilos.",
+   "tela": "E só a ponta da lança tinha 600 siclos de ferro, quase 7 quilos."
+  },
+  {
+   "fala": "E tem mais."
+  },
+  {
+   "fala": "O jovem pastor Davi recusou a armadura do rei Saul."
+  },
+  {
+   "fala": "Pegou só o cajado, cinco pedras do ribeiro e uma funda.",
+   "tela": "Pegou só o cajado, 5 pedras do ribeiro e uma funda."
+  },
+  {
+   "fala": "E venceu o gigante sem ter uma espada na mão."
+  },
+  {
+   "fala": "Cinquenta e sete quilos de bronze perderam para uma pedra lançada com fé.",
+   "tela": "57 quilos de bronze perderam para uma pedra lançada com fé."
+  }
+ ],
+ "cenas": [
+  "Low-angle dramatic view of Goliath towering huge over a tiny young David in a sunlit valley, bronze armor gleaming, dust in golden light",
+  "Two ancient armies camped on opposite hills with a wide valley between them, tents and banners, soft evening sky",
+  "Goliath large in frame stepping out into the valley, bronze helmet and scale armor shining, huge spear on his shoulder",
+  "Close view of Goliath's bronze scale armor and helmet, heavy and detailed, warm ochre light",
+  "Goliath large in frame shouting a challenge across the valley at dawn, Israelite soldiers small and afraid on the hill",
+  "Israelite soldiers huddled behind rocks on the hillside looking down nervously, Goliath large in the distance",
+  "Goliath large in frame holding a huge spear with a big iron spearhead, standing in the valley under a dusty blue sky",
+  "Young David large in frame, a shepherd with his sheep on green hills, sling hanging from his belt, looking toward the valley",
+  "Young David large in frame taking off heavy armor that is too big for him, King Saul in a royal robe watching inside a tent",
+  "Young David large in frame kneeling at a shallow stream choosing five smooth stones, wooden staff beside him",
+  "Young David large in frame swinging his sling with determination, facing the giant far ahead, wind in his hair",
+  "Young David standing calm and grateful on the hilltop at sunset, sling in hand, the Israelite army cheering softly behind him"
+ ]
+}

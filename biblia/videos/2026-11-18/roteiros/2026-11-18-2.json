@@ -1,0 +1,96 @@
+{
+ "id": "2026-11-18-2",
+ "legenda": "Jonas dentro do peixe",
+ "hook": "dá pra ficar 3 dias\ndentro de um peixe?",
+ "personagem": "the prophet Jonah, a middle-aged man with a short black beard, dark curly hair, ochre-gold tunic, sage-green mantle, leather sandals",
+ "end_ref": "Jonas 1 e 2",
+ "capa_titulo": "Três dias dentro do peixe",
+ "capa_cena": 0,
+ "frases": [
+  {
+   "fala": "Você sabia que na Bíblia um homem passou três dias dentro de um peixe e saiu vivo?",
+   "tipo": "hook",
+   "tela": "Você sabia que na Bíblia um homem passou 3 dias dentro de um peixe e saiu vivo?"
+  },
+  {
+   "fala": "O nome dele era Jonas, e a história está no livro de Jonas."
+  },
+  {
+   "fala": "Mas o que ele fez lá dentro durante três dias?",
+   "tela": "Mas o que ele fez lá dentro durante 3 dias?"
+  },
+  {
+   "fala": "A resposta vem no fim."
+  },
+  {
+   "fala": "Deus mandou Jonas pregar na grande cidade de Nínive."
+  },
+  {
+   "fala": "Mas Jonas fugiu para o lado oposto."
+  },
+  {
+   "fala": "Ele pegou um navio em Jope, rumo a Társis."
+  },
+  {
+   "fala": "Veio uma tempestade tão forte que o navio quase se partiu."
+  },
+  {
+   "fala": "Os marinheiros, com medo, lançaram Jonas ao mar."
+  },
+  {
+   "fala": "Em Jonas, capítulo um, está escrito:",
+   "tela": "Em Jonas, capítulo 1, está escrito:"
+  },
+  {
+   "fala": "Preparou, pois, o Senhor um grande peixe, para que tragasse a Jonas; e esteve Jonas três dias e três noites nas entranhas do peixe.",
+   "tipo": "verso",
+   "verso": "Preparou, pois, o Senhor um grande peixe, para que tragasse a Jonas; e esteve Jonas três dias e três noites nas entranhas do peixe.",
+   "ref": "Jonas 1:17"
+  },
+  {
+   "fala": "Três dias e três noites no escuro, no fundo do mar.",
+   "tela": "3 dias e 3 noites no escuro, no fundo do mar.",
+   "destaque": "3 dias e 3 noites"
+  },
+  {
+   "fala": "E a resposta é: ele orou."
+  },
+  {
+   "fala": "Das entranhas do peixe, Jonas clamou a Deus, e Deus ouviu."
+  },
+  {
+   "fala": "Depois, o peixe vomitou Jonas na terra seca."
+  },
+  {
+   "fala": "E tem mais."
+  },
+  {
+   "fala": "Séculos depois, Jesus citou essa história em Mateus."
+  },
+  {
+   "fala": "Disse que, como Jonas, ele ficaria três dias no seio da terra.",
+   "tela": "Disse que, como Jonas, ele ficaria 3 dias no seio da terra."
+  },
+  {
+   "fala": "Nem o fundo do mar é longe demais para uma oração chegar."
+  },
+  {
+   "fala": "Comenta aqui se você já conhecia essa história.",
+   "tipo": "cta"
+  }
+ ],
+ "cenas": [
+  "Jonah large in frame, small figure seen inside the vast dark mouth of an enormous whale-like fish underwater, soft beams of light from above, bubbles, calm awe",
+  "Jonah large in frame standing on a hill hearing God's call, the great ancient city of Nineveh far on the horizon, golden sky",
+  "Jonah large in frame walking away quickly toward a harbor, looking back over his shoulder, ancient port of Joppa with ships",
+  "Jonah large in frame boarding an ancient wooden sailing ship at the port, paying sailors, sails and ropes",
+  "An ancient wooden ship tossed by huge stormy waves under dark clouds, sailors pulling ropes, Jonah large near the mast",
+  "Sailors gently lifting Jonah over the side of the ship toward the stormy sea, rain and wind, dramatic but not violent",
+  "Calm sea after the storm, the ship sailing away under clearing skies, an enormous fish shadow beneath the water",
+  "Jonah large in frame sitting inside the belly of the great fish, soft dim glow, curved ribs like a cave, peaceful",
+  "Jonah large in frame kneeling in prayer inside the great fish, hands lifted, a warm golden light around him",
+  "The great fish at the shoreline releasing Jonah onto dry sand, gentle waves, morning light, Jonah large in frame",
+  "Jonah large in frame walking toward the gates of Nineveh, a huge ancient city with walls and towers, soft dusk",
+  "Jonah large in frame standing on a cliff over a calm sea at sunrise, peaceful, a faint whale tail in the distance"
+ ]
+}

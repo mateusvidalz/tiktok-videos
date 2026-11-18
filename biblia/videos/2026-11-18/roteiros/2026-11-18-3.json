@@ -1,0 +1,93 @@
+{
+ "id": "2026-11-18-3",
+ "legenda": "O gigante de 24 dedos",
+ "hook": "existia um gigante com\nseis dedos em cada mão?",
+ "personagem": "an unnamed Philistine giant from Gath, very tall and broad, wild dark beard, bronze helmet, terracotta tunic, leather armor, clearly six fingers on each hand; Jonathan, a young Israelite warrior with a short brown beard, sage-green tunic and round shield",
+ "end_ref": "2 Samuel 21:15-22",
+ "capa_titulo": "O gigante de 24 dedos",
+ "capa_cena": 8,
+ "frases": [
+  {
+   "fala": "Você sabia que na Bíblia existia um gigante com seis dedos em cada mão?",
+   "tipo": "hook",
+   "tela": "Você sabia que na Bíblia existia um gigante com 6 dedos em cada mão?"
+  },
+  {
+   "fala": "Isso está em Segundo Samuel, capítulo vinte e um.",
+   "tela": "Isso está em 2 Samuel, capítulo 21."
+  },
+  {
+   "fala": "E não era só nas mãos."
+  },
+  {
+   "fala": "Quantos dedos ao todo? A Bíblia dá o número."
+  },
+  {
+   "fala": "Depois de Golias, Davi enfrentou outras batalhas contra os filisteus."
+  },
+  {
+   "fala": "Nelas apareceram outros homens enormes, chamados filhos do gigante."
+  },
+  {
+   "fala": "Um deles surgiu numa batalha em Gate, a mesma cidade de Golias."
+  },
+  {
+   "fala": "A Bíblia nem diz o nome dele."
+  },
+  {
+   "fala": "Mas guarda um detalhe que ninguém esquece."
+  },
+  {
+   "fala": "Em Segundo Samuel, capítulo vinte e um, está escrito:",
+   "tela": "Em 2 Samuel, capítulo 21, está escrito:"
+  },
+  {
+   "fala": "Houve ainda também outra peleja em Gate, onde estava um homem de alta estatura, que tinha em cada mão seis dedos, e em cada pé outros seis, vinte e quatro ao todo, e também este nascera do gigante.",
+   "tipo": "verso",
+   "verso": "Houve ainda também outra peleja em Gate, onde estava um homem de alta estatura, que tinha em cada mão seis dedos, e em cada pé outros seis, vinte e quatro ao todo, e também este nascera do gigante.",
+   "ref": "2 Samuel 21:20"
+  },
+  {
+   "fala": "Vinte e quatro dedos ao todo.",
+   "tela": "24 dedos ao todo.",
+   "destaque": "24 dedos"
+  },
+  {
+   "fala": "Esse homem zombava de Israel."
+  },
+  {
+   "fala": "Quem o venceu foi Jônatas, sobrinho de Davi."
+  },
+  {
+   "fala": "E tem mais."
+  },
+  {
+   "fala": "Ele aparece de novo em Primeiro Crônicas, capítulo vinte, com os mesmos vinte e quatro dedos.",
+   "tela": "Ele aparece de novo em 1 Crônicas, capítulo 20, com os mesmos 24 dedos."
+  },
+  {
+   "fala": "E os quatro gigantes de Gate caíram pela mão de Davi e dos seus servos.",
+   "tela": "E os 4 gigantes de Gate caíram pela mão de Davi e dos seus servos."
+  },
+  {
+   "fala": "Golias foi só o primeiro gigante."
+  },
+  {
+   "fala": "A coragem de um pastor virou a coragem de um povo."
+  }
+ ],
+ "cenas": [
+  "Close dramatic view of the giant from Gath raising one enormous hand with six fingers clearly visible against a golden sky, his bearded face stern",
+  "The giant large in frame standing on a rocky hill, huge silhouette, small soldiers below, dusty valley at sunset",
+  "Close view of the giant's large bare feet in leather sandals on sand, six toes on each foot clearly visible",
+  "The giant large in frame counting on his six-fingered hands, soft light, a curious calm mood",
+  "King David as an adult with a short auburn beard and royal blue mantle, large in frame, leading Israelite soldiers across a dry valley",
+  "Several very tall Philistine warriors large in frame on a ridge, bronze helmets, Israelite camp small below",
+  "A huge heavy bronze spear lying on a rock beside a giant's shield, Philistine camp in the background, warm light",
+  "The ancient walled city of Gath on a hill at dusk, stone towers, the giant large in frame in front of its gate",
+  "The giant large in frame shouting and mocking toward the Israelite camp, hands raised showing six fingers, dust in the air",
+  "Jonathan large in frame, a young Israelite warrior with round shield, stepping forward bravely on a hillside",
+  "Jonathan large in frame standing victorious and calm on the battlefield at sunset, the giant's helmet lying on the ground, no violence",
+  "King David and his servants large in frame on a hilltop at golden hour, looking over the valley, peaceful and grateful"
+ ]
+}
