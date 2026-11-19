@@ -1,0 +1,98 @@
+{
+ "id": "2026-11-19-3",
+ "legenda": "A cama do gigante",
+ "hook": "qual era o tamanho\nda cama de um gigante?",
+ "personagem": "Og, king of Bashan, a towering giant king with a long dark braided beard, simple iron crown, heavy rust brown and dark ochre robes; Moses, an elderly man with a long white beard, sand robe, olive green mantle and wooden staff",
+ "end_ref": "Deuteronômio 3:1-11",
+ "capa_titulo": "A cama de ferro do gigante",
+ "capa_cena": 0,
+ "frases": [
+  {
+   "fala": "Você sabia que na Bíblia um gigante tinha uma cama de ferro com quatro metros?",
+   "tipo": "hook",
+   "tela": "Você sabia que na Bíblia um gigante tinha uma cama de ferro com 4 metros?",
+   "destaque": "4 metros"
+  },
+  {
+   "fala": "O nome dele era Ogue, rei de Basã, e a história está em Deuteronômio."
+  },
+  {
+   "fala": "Mas onde essa cama foi parar?"
+  },
+  {
+   "fala": "A resposta vem no fim."
+  },
+  {
+   "fala": "Israel caminhava pelo deserto rumo à terra prometida, guiado por Moisés."
+  },
+  {
+   "fala": "No caminho de Basã, o rei Ogue saiu para a guerra com todo o seu povo."
+  },
+  {
+   "fala": "Mas Deus disse a Moisés: Não o temas."
+  },
+  {
+   "fala": "Israel venceu, e o reino de Ogue caiu."
+  },
+  {
+   "fala": "Em Deuteronômio, capítulo três, está escrito:",
+   "tela": "Em Deuteronômio, capítulo 3, está escrito:"
+  },
+  {
+   "fala": "Porque só Ogue, o rei de Basã, restou dos gigantes; eis que o seu leito, um leito de ferro.",
+   "tipo": "verso",
+   "verso": "Porque só Ogue, o rei de Basã, restou dos gigantes; eis que o seu leito, um leito de ferro.",
+   "ref": "Deuteronômio 3:11"
+  },
+  {
+   "fala": "A cama media nove côvados por quatro.",
+   "tela": "A cama media 9 côvados por 4."
+  },
+  {
+   "fala": "Isso dá cerca de quatro metros de comprimento e quase dois de largura.",
+   "tela": "Isso dá cerca de 4 metros de comprimento e quase 2 de largura."
+  },
+  {
+   "fala": "Ele era o último dos gigantes."
+  },
+  {
+   "fala": "Agora a resposta."
+  },
+  {
+   "fala": "A Bíblia conta que a cama ficou em Rabá, dos filhos de Amom."
+  },
+  {
+   "fala": "E tem mais."
+  },
+  {
+   "fala": "O reino de Ogue tinha sessenta cidades, com muros altos, portas e ferrolhos.",
+   "tela": "O reino de Ogue tinha 60 cidades, com muros altos, portas e ferrolhos.",
+   "destaque": "60 cidades"
+  },
+  {
+   "fala": "E séculos depois, o nome dele ainda era cantado no Salmo cento e trinta e seis.",
+   "tela": "E séculos depois, o nome dele ainda era cantado no Salmo 136."
+  },
+  {
+   "fala": "Até o maior gigante não foi maior do que Deus."
+  },
+  {
+   "fala": "Comenta aqui se você já conhecia essa história.",
+   "tipo": "cta"
+  }
+ ],
+ "cenas": [
+  "A colossal iron bed in a vast stone hall, the giant king Og standing beside it, the bed far longer than the tall men next to it, dramatic golden light from high windows",
+  "Og, the giant king of Bashan, seated on a massive stone throne, looking over green hills and oak forests of Bashan",
+  "Close view of a huge ornate iron bed frame with simple carvings, a small man measuring it with a rope, warm light",
+  "An ancient fortified city of Bashan on a hill with high stone walls, oak trees, soft dusty blue sky",
+  "The people of Israel walking in a long line through the desert with tents and camels, Moses leading with his staff, sunset",
+  "Og, the giant king, standing at the head of his army on a rocky ridge, his cloak blowing, seen from far away, no violence",
+  "Moses on a rocky hill raising his staff, looking up at golden rays breaking through clouds, calm and confident",
+  "Israelite tents peacefully set up below the empty hills of Bashan at dawn, banners in the wind, no violence",
+  "Moses writing on a scroll by an oil lamp inside a tent, the starry night visible outside",
+  "The giant iron bed seen beside ordinary men who reach only to its middle, inside a stone storehouse",
+  "An ancient city Rabbah of the Ammonites with stone towers on a hill, the iron bed carried by many men on wooden poles",
+  "Sixty ancient walled cities scattered across green hills and oak forests of Bashan under a sunrise, wide panoramic view"
+ ]
+}

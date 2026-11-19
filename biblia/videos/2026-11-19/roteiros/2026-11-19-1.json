@@ -1,0 +1,104 @@
+{
+ "id": "2026-11-19-1",
+ "legenda": "O versículo mais curto",
+ "hook": "qual é o versículo\nmais curto da Bíblia?",
+ "personagem": "Jesus, a man in his early thirties with shoulder-length brown hair and a short brown beard, cream linen tunic, dusty blue mantle; Mary of Bethany, a young woman with dark hair under a sage green veil and a terracotta dress",
+ "end_ref": "João 11:1-44",
+ "capa_titulo": "As duas palavras mais fortes da Bíblia",
+ "capa_cena": 0,
+ "frases": [
+  {
+   "fala": "Você sabia que na Bíblia existe um versículo com apenas duas palavras?",
+   "tipo": "hook",
+   "tela": "Você sabia que na Bíblia existe um versículo com apenas 2 palavras?",
+   "destaque": "2 palavras"
+  },
+  {
+   "fala": "Ele está no Evangelho de João, e fala de Jesus."
+  },
+  {
+   "fala": "Mas por que essas duas palavras são tão fortes?"
+  },
+  {
+   "fala": "A resposta vem no fim."
+  },
+  {
+   "fala": "Na vila de Betânia morava Lázaro, um amigo muito querido de Jesus."
+  },
+  {
+   "fala": "Lázaro adoeceu e morreu."
+  },
+  {
+   "fala": "Quando Jesus chegou, ele já estava no túmulo havia quatro dias.",
+   "tela": "Quando Jesus chegou, ele já estava no túmulo havia 4 dias.",
+   "destaque": "4 dias"
+  },
+  {
+   "fala": "Maria, irmã de Lázaro, caiu aos pés de Jesus, chorando."
+  },
+  {
+   "fala": "Senhor, se tu estivesses aqui, meu irmão não teria morrido."
+  },
+  {
+   "fala": "Jesus viu as lágrimas dela e de todos que estavam ali."
+  },
+  {
+   "fala": "Em João, capítulo onze, está escrito:",
+   "tela": "Em João, capítulo 11, está escrito:"
+  },
+  {
+   "fala": "Jesus chorou.",
+   "tipo": "verso",
+   "verso": "Jesus chorou.",
+   "ref": "João 11:35"
+  },
+  {
+   "fala": "Só isso. Duas palavras.",
+   "tela": "Só isso. 2 palavras."
+  },
+  {
+   "fala": "E o povo comentou: Vede como o amava."
+  },
+  {
+   "fala": "Agora a resposta."
+  },
+  {
+   "fala": "Jesus já tinha dito que ia despertar Lázaro do sono."
+  },
+  {
+   "fala": "Ele sabia que o amigo ia voltar à vida."
+  },
+  {
+   "fala": "Mesmo assim, ele parou e chorou com quem chorava."
+  },
+  {
+   "fala": "E tem mais."
+  },
+  {
+   "fala": "Logo depois, Jesus foi até o túmulo e mandou tirar a pedra."
+  },
+  {
+   "fala": "Então clamou com grande voz: Lázaro, sai para fora."
+  },
+  {
+   "fala": "E o morto saiu, ainda com as mãos e os pés presos em faixas."
+  },
+  {
+   "fala": "O versículo mais curto da Bíblia mostra um Deus que chora junto com você."
+  }
+ ],
+ "cenas": [
+  "Jesus standing in front of a rock-cut tomb at golden dusk, a single tear on his cheek, wind moving his dusty blue mantle, olive trees around, dramatic warm sky",
+  "Jesus walking on a dusty road between olive trees toward a small village on a hill, early morning light",
+  "Close view of Jesus looking thoughtful, hand on his chest, soft golden light, olive leaves in the foreground",
+  "A small ancient stone village of Bethany with flat roofs, palm trees and olive groves, warm afternoon sky",
+  "Lazarus, a young man with a short black beard and cream tunic, lying ill on a simple mat inside a stone house, his two sisters beside him with an oil lamp",
+  "A round stone rolled in front of a tomb carved into a rocky hillside, cypress trees, quiet evening light",
+  "Jesus arriving at the edge of the village with his disciples, a crowd waiting, dusty path, soft sunset",
+  "Mary of Bethany kneeling at the feet of Jesus on the dusty road, crying, Jesus bending toward her with compassion",
+  "Mourners in sand and ochre robes gathered near the tomb, heads bowed, olive trees and hills behind",
+  "Jesus with eyes full of tears, Mary beside him, the rocky tomb in the background, gentle golden light",
+  "Jesus raising his hand and calling out loudly in front of the open tomb, the stone rolled aside, rays of light",
+  "Lazarus walking out of the tomb wrapped in white linen strips, his sisters joyful, Jesus smiling, warm glowing sunrise"
+ ]
+}

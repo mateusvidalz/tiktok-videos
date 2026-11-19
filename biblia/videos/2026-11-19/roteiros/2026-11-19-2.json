@@ -1,0 +1,101 @@
+{
+ "id": "2026-11-19-2",
+ "legenda": "A escrita na parede",
+ "hook": "que mão misteriosa\nescreveu na parede?",
+ "personagem": "King Belshazzar, a young Babylonian king with a curled black beard, tall gold crown, deep crimson and gold robe; Daniel, an elderly man with a long white beard, sand robe and dusty blue mantle",
+ "end_ref": "Daniel 5:1-31",
+ "capa_titulo": "A mão que escreveu na parede",
+ "capa_cena": 0,
+ "frases": [
+  {
+   "fala": "Você sabia que na Bíblia uma mão apareceu do nada e escreveu na parede de um palácio?",
+   "tipo": "hook"
+  },
+  {
+   "fala": "Isso aconteceu na Babilônia, e está no livro de Daniel."
+  },
+  {
+   "fala": "Mas o que dizia aquela mensagem?"
+  },
+  {
+   "fala": "A resposta vem no fim."
+  },
+  {
+   "fala": "O rei Belsazar deu um grande banquete para mil dos seus senhores.",
+   "tela": "O rei Belsazar deu um grande banquete para 1.000 dos seus senhores.",
+   "destaque": "1.000 senhores"
+  },
+  {
+   "fala": "Ele mandou trazer os vasos de ouro tirados do templo de Jerusalém."
+  },
+  {
+   "fala": "E beberam neles, louvando deuses de ouro."
+  },
+  {
+   "fala": "Na mesma hora, apareceram dedos de mão de homem."
+  },
+  {
+   "fala": "E começaram a escrever na parede do palácio, perto do castiçal."
+  },
+  {
+   "fala": "O rei ficou pálido, e os joelhos dele batiam um no outro."
+  },
+  {
+   "fala": "Nenhum sábio da Babilônia conseguiu ler."
+  },
+  {
+   "fala": "Então a rainha lembrou de um homem chamado Daniel."
+  },
+  {
+   "fala": "Daniel leu: Mene, Mene, Tequel, Ufarsim.",
+   "tela": "Daniel leu: MENE, MENE, TEQUEL, UFARSIM."
+  },
+  {
+   "fala": "Agora a resposta."
+  },
+  {
+   "fala": "Mene: Deus contou o teu reino, e o acabou."
+  },
+  {
+   "fala": "Em Daniel, capítulo cinco, está escrito:",
+   "tela": "Em Daniel, capítulo 5, está escrito:"
+  },
+  {
+   "fala": "Tequel: Pesado foste na balança, e foste achado em falta.",
+   "tipo": "verso",
+   "verso": "TEQUEL: Pesado foste na balança, e foste achado em falta.",
+   "ref": "Daniel 5:27"
+  },
+  {
+   "fala": "E Peres: o teu reino foi dividido e dado aos medos e aos persas."
+  },
+  {
+   "fala": "E tem mais."
+  },
+  {
+   "fala": "Naquela mesma noite, o rei Belsazar foi morto."
+  },
+  {
+   "fala": "E Dario, o medo, ficou com o reino, aos sessenta e dois anos.",
+   "tela": "E Dario, o medo, ficou com o reino, aos 62 anos.",
+   "destaque": "62 anos"
+  },
+  {
+   "fala": "Uma frase na parede mudou a história de um império inteiro."
+  }
+ ],
+ "cenas": [
+  "A glowing golden hand writing mysterious ancient letters on a white plaster palace wall beside a tall golden lampstand, King Belshazzar in the foreground turning in shock, warm candlelight",
+  "The great city of Babylon at dusk with tall walls, ziggurat and palm trees along the river, dusty blue sky",
+  "King Belshazzar on his throne raising a golden cup, thoughtful, rich crimson curtains behind him",
+  "A huge banquet hall in Babylon with long tables, many nobles in colorful robes, oil lamps and fruit, warm golden light",
+  "Servants carrying shining gold and silver temple vessels into the banquet hall",
+  "Nobles drinking from the gold vessels in front of small idols of gold and silver, the king laughing",
+  "Close view of the glowing hand writing letters on the plaster wall near the golden lampstand, soft light, mysterious atmosphere",
+  "King Belshazzar pale and frightened on his throne, gripping the armrests, his crown tilted, guests stepping back",
+  "Wise men in tall hats and long robes staring at the wall, confused, holding scrolls",
+  "The queen in an elegant sage green robe entering the hall, speaking to the king with calm authority",
+  "Daniel standing before the king, pointing calmly at the writing on the wall, the whole hall silent",
+  "Night over Babylon, soldiers entering through the city gates under a full moon, quiet and dramatic, no violence"
+ ]
+}
