@@ -1,0 +1,90 @@
+{
+ "id": "HOJE-1",
+ "legenda": "O rosto que brilhava",
+ "hook": "o rosto de Moisés\nbrilhava mesmo?",
+ "personagem": "Moses, an elderly man around 80 with a long white beard and long white hair, sand-beige robe, terracotta mantle, wooden staff",
+ "end_ref": "Êxodo 34:28-35",
+ "capa_titulo": "O dia em que o rosto de Moisés brilhou",
+ "capa_cena": 0,
+ "frases": [
+  {
+   "fala": "Você sabia que na Bíblia o rosto de um homem ficou brilhando depois de falar com Deus?",
+   "tipo": "hook"
+  },
+  {
+   "fala": "O nome dele era Moisés, e essa história está no livro de Êxodo."
+  },
+  {
+   "fala": "E por isso ele fez algo que quase ninguém lembra."
+  },
+  {
+   "fala": "Moisés subiu ao monte Sinai para receber as tábuas da lei."
+  },
+  {
+   "fala": "Ele ficou lá quarenta dias e quarenta noites.",
+   "tela": "Ele ficou lá 40 dias e 40 noites.",
+   "destaque": "40 dias"
+  },
+  {
+   "fala": "Quando desceu, trazia as duas tábuas nas mãos."
+  },
+  {
+   "fala": "Mas o povo olhou para ele e ficou com medo."
+  },
+  {
+   "fala": "A pele do rosto de Moisés resplandecia."
+  },
+  {
+   "fala": "E o mais curioso: ele nem sabia disso."
+  },
+  {
+   "fala": "Em Êxodo, capítulo trinta e quatro, está escrito:",
+   "tela": "Em Êxodo, capítulo 34, está escrito:"
+  },
+  {
+   "fala": "Olhando, pois, Arão e todos os filhos de Israel para Moisés, eis que a pele do seu rosto resplandecia; por isso temeram chegar-se a ele.",
+   "tipo": "verso",
+   "verso": "Olhando, pois, Arão e todos os filhos de Israel para Moisés, eis que a pele do seu rosto resplandecia; por isso temeram chegar-se a ele.",
+   "ref": "Êxodo 34:30"
+  },
+  {
+   "fala": "Até Arão, o próprio irmão dele, teve receio de chegar perto."
+  },
+  {
+   "fala": "E tem mais."
+  },
+  {
+   "fala": "Depois de falar com o povo, Moisés colocou um véu sobre o rosto."
+  },
+  {
+   "fala": "Quando entrava para falar com o Senhor, tirava o véu."
+  },
+  {
+   "fala": "E quando saía, cobria o rosto de novo."
+  },
+  {
+   "fala": "Esse é o detalhe esquecido: Moisés andava com o rosto coberto."
+  },
+  {
+   "fala": "Porque o brilho vinha de ter estado na presença de Deus."
+  },
+  {
+   "fala": "Comenta aqui se você já conhecia essa história.",
+   "tipo": "cta"
+  }
+ ],
+ "cenas": [
+  "Close view of Moses descending a rocky mountain path, his face radiating a soft golden glow, holding two stone tablets, dramatic clouds and light rays behind him",
+  "Moses standing on a desert plain looking up at the great mountain Sinai wrapped in clouds, Israelite tents in the distance",
+  "Moses climbing a steep rocky slope with his wooden staff, wind in his robe, vast desert below",
+  "Moses standing alone inside a bright cloud on the mountain top, soft glowing light around him",
+  "Moses kneeling on the summit at night under a sky full of stars, many days passing, peaceful",
+  "Moses holding two blank stone tablets up toward the sky on the mountain top, golden light falling on him",
+  "Moses walking down the mountain carrying the two stone tablets against his chest, warm dawn light",
+  "A crowd of Israelites in simple robes stepping back in awe at the foot of the mountain, looking toward a glowing figure",
+  "Close portrait of Moses with his face softly shining with golden light, calm expression, unaware, tablets in his arms",
+  "Aaron, an older man with a grey beard, white robe and blue sash, hesitating at a distance, surprised, near the tents",
+  "Moses gently placing a light cream linen veil over his face in front of his tent at dusk, Israelite camp behind",
+  "Moses entering a glowing tent of meeting at night, removing the veil, warm golden light pouring out, stars above"
+ ]
+}

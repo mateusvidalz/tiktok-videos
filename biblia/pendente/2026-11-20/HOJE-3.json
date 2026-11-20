@@ -1,0 +1,80 @@
+{
+ "id": "HOJE-3",
+ "legenda": "O rei que comeu erva",
+ "hook": "um rei passou a\ncomer erva como boi?",
+ "personagem": "King Nebuchadnezzar, a middle-aged Babylonian king with a long curled black beard, tall golden crown and deep terracotta and gold royal robe (in the field scenes: no crown, long wild hair, simple torn sand-colored tunic); the prophet Daniel, a young man with a short dark beard in a sage green robe",
+ "end_ref": "Daniel 4:1-37",
+ "capa_titulo": "O rei que comeu erva como boi",
+ "capa_cena": 0,
+ "frases": [
+  {
+   "fala": "Você sabia que na Bíblia um rei poderoso passou a comer erva do campo como um boi?",
+   "tipo": "hook"
+  },
+  {
+   "fala": "Ele era Nabucodonosor, rei da Babilônia, e a história está no livro de Daniel."
+  },
+  {
+   "fala": "Como um rei tão poderoso chegou a esse ponto? E será que ele voltou?"
+  },
+  {
+   "fala": "Ele sonhou com uma árvore enorme que foi cortada."
+  },
+  {
+   "fala": "Daniel explicou o sonho e avisou o rei."
+  },
+  {
+   "fala": "Doze meses depois, Nabucodonosor passeava no seu palácio.",
+   "tela": "12 meses depois, Nabucodonosor passeava no seu palácio.",
+   "destaque": "12 meses"
+  },
+  {
+   "fala": "Olhou para a cidade e se encheu de orgulho."
+  },
+  {
+   "fala": "E disse: Não é esta a grande Babilônia que eu edifiquei?"
+  },
+  {
+   "fala": "Então uma voz caiu do céu."
+  },
+  {
+   "fala": "Em Daniel, capítulo quatro, está escrito:",
+   "tela": "Em Daniel, capítulo 4, está escrito:"
+  },
+  {
+   "fala": "Na mesma hora se cumpriu a palavra sobre Nabucodonosor, e foi tirado dentre os homens, e comia erva como os bois, e o seu corpo foi molhado do orvalho do céu, até que lhe cresceu pêlo, como as penas da águia, e as suas unhas como as das aves.",
+   "tipo": "verso",
+   "verso": "Na mesma hora se cumpriu a palavra sobre Nabucodonosor, e foi tirado dentre os homens, e comia erva como os bois, e o seu corpo foi molhado do orvalho do céu, até que lhe cresceu pêlo, como as penas da águia, e as suas unhas como as das aves.",
+   "ref": "Daniel 4:33"
+  },
+  {
+   "fala": "Mas no fim daqueles dias, ele levantou os olhos ao céu."
+  },
+  {
+   "fala": "O entendimento voltou, e ele recebeu o reino de volta."
+  },
+  {
+   "fala": "E tem mais."
+  },
+  {
+   "fala": "Esse capítulo é contado pelo próprio Nabucodonosor, em primeira pessoa."
+  },
+  {
+   "fala": "Um rei pagão escreveu que o Altíssimo domina sobre o reino dos homens."
+  }
+ ],
+ "cenas": [
+  "King Nebuchadnezzar without his crown, long wild hair, kneeling in a green misty field at dawn among grazing oxen, eating grass, dew drops on his shoulders, golden sunrise",
+  "The magnificent city of Babylon with tall ochre walls, blue glazed gates, hanging gardens and ziggurat under a warm sky",
+  "King Nebuchadnezzar on his golden throne in a grand palace hall with tall columns, proud expression",
+  "King Nebuchadnezzar asleep in a royal bed, above him a dreamlike vision of an enormous tree reaching the starry sky",
+  "The giant dream tree being cut down to a stump, leaves scattering in the wind, animals fleeing, soft dreamlike light",
+  "The prophet Daniel standing before the seated king, explaining with an open hand, oil lamps glowing",
+  "King Nebuchadnezzar walking on the rooftop terrace of his palace at golden hour, overlooking Babylon",
+  "King Nebuchadnezzar with arms raised proudly over the vast city below, robe flowing, dramatic clouds",
+  "A beam of heavenly light breaking through clouds above the palace roof, the king looking up startled",
+  "Nebuchadnezzar alone in a wide open meadow among oxen, wild long hair, simple torn tunic, under a dusty blue sky",
+  "Nebuchadnezzar kneeling in the field at night lifting his eyes to a starry sky, peaceful expression returning",
+  "King Nebuchadnezzar restored, crowned again, writing on a scroll at a desk by lamplight, calm and humble"
+ ]
+}

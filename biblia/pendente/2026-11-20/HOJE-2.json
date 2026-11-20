@@ -1,0 +1,93 @@
+{
+ "id": "HOJE-2",
+ "legenda": "Os três na fornalha",
+ "hook": "três jovens saíram\nvivos da fornalha?",
+ "personagem": "Shadrach, Meshach and Abednego, three young Hebrew men in their twenties with short dark beards, long robes in sage green, dusty blue and ochre with matching cloaks and simple cloth head coverings; King Nebuchadnezzar, a middle-aged Babylonian king with a curled black beard, tall golden crown and deep red and gold royal robe",
+ "end_ref": "Daniel 3:1-27",
+ "capa_titulo": "O quarto homem dentro do fogo",
+ "capa_cena": 0,
+ "frases": [
+  {
+   "fala": "Você sabia que na Bíblia três jovens foram jogados numa fornalha e saíram sem cheiro de fogo?",
+   "tipo": "hook"
+  },
+  {
+   "fala": "Eles se chamavam Sadraque, Mesaque e Abednego, e a história está no livro de Daniel."
+  },
+  {
+   "fala": "E o que o rei viu dentro das chamas deixou todo mundo sem palavras."
+  },
+  {
+   "fala": "O rei Nabucodonosor fez uma estátua de ouro de sessenta côvados.",
+   "tela": "O rei Nabucodonosor fez uma estátua de ouro de 60 côvados.",
+   "destaque": "60 côvados"
+  },
+  {
+   "fala": "Todos deveriam se prostrar e adorar a estátua."
+  },
+  {
+   "fala": "Mas os três jovens se recusaram."
+  },
+  {
+   "fala": "O rei se encheu de furor."
+  },
+  {
+   "fala": "E mandou aquecer a fornalha sete vezes mais do que o normal.",
+   "tela": "E mandou aquecer a fornalha 7 vezes mais do que o normal.",
+   "destaque": "7 vezes"
+  },
+  {
+   "fala": "O fogo era tão forte que matou os homens que levaram os jovens."
+  },
+  {
+   "fala": "Os três caíram amarrados dentro da fornalha."
+  },
+  {
+   "fala": "Então o rei se levantou depressa, espantado."
+  },
+  {
+   "fala": "Em Daniel, capítulo três, está escrito:",
+   "tela": "Em Daniel, capítulo 3, está escrito:"
+  },
+  {
+   "fala": "Respondeu, dizendo: Eu, porém, vejo quatro homens soltos, que andam passeando dentro do fogo, sem sofrer nenhum dano; e o aspecto do quarto é semelhante ao Filho de Deus.",
+   "tipo": "verso",
+   "verso": "Respondeu, dizendo: Eu, porém, vejo quatro homens soltos, que andam passeando dentro do fogo, sem sofrer nenhum dano; e o aspecto do quarto é semelhante ao Filho de Deus.",
+   "ref": "Daniel 3:25"
+  },
+  {
+   "fala": "Eram três lá dentro, mas o rei viu quatro.",
+   "tela": "Eram 3 lá dentro, mas o rei viu 4.",
+   "destaque": "4 homens"
+  },
+  {
+   "fala": "E tem mais."
+  },
+  {
+   "fala": "Quando eles saíram, nem um só cabelo estava queimado."
+  },
+  {
+   "fala": "As capas não mudaram."
+  },
+  {
+   "fala": "E nem cheiro de fogo tinha passado sobre eles."
+  },
+  {
+   "fala": "Entraram amarrados e saíram andando, livres, do meio do fogo."
+  }
+ ],
+ "cenas": [
+  "Three young men standing calm and unharmed among tall glowing golden flames inside a great brick furnace, a fourth radiant figure of soft white light walking beside them",
+  "A colossal golden statue rising over the plain of Dura in Babylon, crowds of tiny people below, ochre desert sky",
+  "King Nebuchadnezzar on a high golden throne pointing toward the giant statue, musicians with harps and horns around him",
+  "A huge crowd bowing low before the golden statue while the three young men remain standing upright in the middle",
+  "The three young men standing side by side calmly before the king, hands open, peaceful and firm",
+  "King Nebuchadnezzar rising from his throne in fury, red robe swirling, servants stepping back",
+  "A massive Babylonian brick furnace with roaring orange flames pouring out of its arched opening, heat shimmering",
+  "The three young men with their hands tied with rope, still wearing their cloaks and head coverings, being led toward the bright furnace, seen from behind",
+  "King Nebuchadnezzar standing up astonished, eyes wide, advisors beside him looking toward the glowing furnace",
+  "Inside the furnace, four figures walking freely among soft golden flames, the fourth figure shining with white light",
+  "The three young men stepping out of the furnace doorway unharmed, cloaks intact, officials gathering around amazed",
+  "The three young men standing peacefully at sunset outside the Babylonian city walls, warm light, palm trees"
+ ]
+}
